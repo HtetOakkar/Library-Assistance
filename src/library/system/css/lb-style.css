@@ -1,0 +1,21 @@
+/*
+Hay!
+Hello
+I'm Htet Oakkar
+*/
+/* 
+    Created on : Jul 19, 2018, 6:44:29 PM
+    Author     : Htet-Oakkar
+*/
+.button {
+    -fx-background-color: #123456;
+    -fx-text-fill: #eceff1;
+}
+
+.glyph-icon {
+    -fx-fill: #eceff1;
+}
+
+.side-pannel {
+    -fx-background-color: #123456;
+}
