@@ -89,7 +89,6 @@ public class Database {
         Statement stmt3 = conn.createStatement();
         stmt3.execute(sql3);
 
-        System.out.println("Table created!");
     }
 
     public Connection getConnection() {

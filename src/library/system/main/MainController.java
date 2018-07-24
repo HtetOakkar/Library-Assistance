@@ -218,7 +218,7 @@ public class MainController implements Initializable {
                 mobileText.setText(member.getMobile());
                 addressText.setText(member.getAddress());
             } else {
-                Message.showErrorMessage("Error", "Cannot find member for this id!");
+                Message.showErrorMessage("Error", "Member id does not exist!");
             }
         } catch (NumberFormatException e) {
             Message.showErrorMessage("Error", "Invalid Input!");
